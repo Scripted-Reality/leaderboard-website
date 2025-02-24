@@ -22,10 +22,10 @@ export function AboutUsCard({
             {name}
           </h3>
         </LinkPreview>
-        <p className="text-sm text-muted-foreground">{title}</p>
+        <p className="text-sm text-gray-600">{title}</p>
       </CardHeader>
       <CardContent>
-        <p className="text-sm">{description}</p>
+        <p className="text-sm text-gray-400">{description}</p>
       </CardContent>
     </Card>
   );
